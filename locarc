@@ -1,8 +1,0 @@
-# Enable Neutron
-#ENABLED_SERVICES+=,q-svc,q-agt,q-dhcp,q-l3,q-meta,neutron
-
-# Enable Heat
-enable_service heat h-api h-api-cfn h-api-cw h-eng
-
-# Enable Murano
-enable_service murano murano-api murano-engine
