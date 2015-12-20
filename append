@@ -1,0 +1,2 @@
+# Enable Neutron
+ENABLED_SERVICES+=,q-svc,q-agt,q-dhcp,q-l3,q-meta,neutron
